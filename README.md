@@ -2,8 +2,8 @@
 **Script written by reddit user N4styCartPet/ wykop.pl user mikorys** \
 **This script allows you to download photos of 10 last persons who has liked you** \
 **This script was tested on WINDOWS 10 it works for 8th July 2020**
-**Should work on older Windows wersions too*
-EDIT: Works on MAC OS
+**Should work on older Windows wersions too** \
+EDIT: Works on MAC OS too
 
 **In order to run script you need to perform following steps:**
 1. Download and install node.js LTS version - https://nodejs.org/en/  (during instalation process keep clicking **Next**)
