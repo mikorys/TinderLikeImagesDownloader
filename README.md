@@ -30,7 +30,8 @@
 ![](images4Readme/downloadedImages.png)
 
 **!!!!!! IMPORTANT !!!!!!**
-**X-AUTH-TOKEN** Changes once a week so if script returns error make sure that your X-AuthKey is updated
+**X-AUTH-TOKEN Changes once a week so if script returns error make sure that your X-AuthKey is updated** \
+Each time when you execute the script it automatically deletes alread downloaded photos, so you don't neeed to manually remove them.
 
 **FAQ**
 1.Is it possible to download more than 10 photos? - Unfortunately no, script shows everyone who is blurred when you hit likes section- see screenshot below
