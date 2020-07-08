@@ -5,7 +5,7 @@
 **Should work on older Windows wersions too*
 
 **In order to run script you need to perform following steps:**
-1. Download and install node.js LTS version - https://nodejs.org/en/ 
+1. Download and install node.js LTS version - https://nodejs.org/en/  (during instalation process keep clicking **Next**)
 2. **(Optional)** If you installed node JS for the first time on your machine, restart your PC 
 3. Download repository zip file and extract it to desktop 
 4. Obtain X-auth token for your tinder account: Below you have instruction how to do that:\
