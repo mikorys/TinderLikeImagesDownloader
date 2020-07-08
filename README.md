@@ -14,7 +14,7 @@
   -3C. Now in URL field paste tinder adress and click **Return/Enter key** - https://tinder.com/app/recs \
   -3D. In Filter searchField shown below paste following **text: meta?locale** \
   ![](images4Readme/FilterFieldLocation.png)
-  -3E. From listed results select firtst one and click it - Headers Tab should display\
+  -3E. From listed results select firtst one and click it - Headers Tab should display - (if you dont have meta?locale file reload tinder main page)\
   ![](images4Readme/ClickOnMetaLocale.png)
   -3D. Scroll down to Section called **Request headers**, if its not opened do it and scroll down until you find X-Auth-token, copy it and save somewhere. You will need it later.
   ![](images4Readme/Obtain%20X-Auth%20token.png)
