@@ -30,7 +30,7 @@
 ![](images4Readme/downloadedImages.png)
 
 **!!!!!! IMPORTANT !!!!!!**
-**X-AUTH-TOKEN Changes once a week so if script returns error make sure that your X-AuthKey is updated** \
+**X-AUTH-TOKEN Changes every few days so if script returns error make sure that your X-AuthKey is updated** \
 Each time when you execute the script it automatically deletes already downloaded photos, so you don't neeed to manually remove them.
 
 **FAQ**
