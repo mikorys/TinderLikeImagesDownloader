@@ -5,7 +5,7 @@ const Path = require('path')
 const FsExtra = require('fs-extra')
 
 // !!!!!!!!!! Paste here X-Auth token below, XauthToken Should be betwen quotes '' for instance 'pasted X-authToken' !!!!!!!!!!
-let XAuth = 'PASTE X-AUTHTOHKEN HERE' 
+let XAuth = 'PASTE X-AUTH TOKEN HERE' 
 // !! REMEMBER !!! personal X-AUTH TOKEN changes once a week if script does not work check if it is correct  
 
 const directory = __dirname + '/downloadedImages'
@@ -47,7 +47,7 @@ async function download(url, photoNo) {//main function download 10 last like ima
 
     return new Promise((resolve, reject) => {
         response.data.on('end', () => {
-            console.log(`Tinder Photo No ${photoNo} successfully`)
+            console.log(`Tinder Photo No ${photoNo} dwonloaded successfully`)
             resolve()
         })
         response.data.on('error', err => {
