@@ -33,7 +33,7 @@ This script allows you to download photos of 10 last persons who has liked you\
 **X-AUTH-TOKEN** Changes once a week so if script returns error make sure that your X-AuthKey is updated
 
 **FAQ**
-1.Is it possible to download more than 10 photos? - Unfrotunatell no, script shows everyone who is blurred when you hit- see screenshot below
+1.Is it possible to download more than 10 photos? - Unfortunately no, script shows everyone who is blurred when you hit likes section- see screenshot below
 ![](images4Readme/BluredPhotos.png)
 2. Does it work on MAC, I'm not familliar with MAC OS so I have no idea.
 
