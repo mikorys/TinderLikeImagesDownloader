@@ -9,8 +9,8 @@
 2. **(Optional)** If you installed node JS for the first time on your machine, restart your PC 
 3. Download repository zip file and extract it to desktop 
 4. Obtain X-auth token for your tinder account: Below you have instruction how to do that:\
-  -3A.**(Optional)** If you didn't do it ever before log in to your tinder account on Google Chrome using browser. **It is very important to be logged automatically to your tinder account** \
-  -3B. Open new empty Chrome tab and press "F12" - click on Network Tab\ 
+  -3A.**(Optional)** If you didn't do it ever before log in to your tinder account on Google Chrome using browser. **It is very important to be logged automatically to your tinder account each time you open it* \
+  -3B. Open new empty Chrome tab and press "F12" - click on Network Tab \
   -3C. Now in URL field paste tinder adress and click **Return/Enter key** - https://tinder.com/app/recs \
   -3D. In Filter searchField shown below paste following **text: meta?locale** \
   ![](images4Readme/FilterFieldLocation.png)
