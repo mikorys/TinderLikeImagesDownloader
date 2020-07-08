@@ -7,7 +7,7 @@ This script allows you to download photos of 10 last persons who has liked you\
 **In order to run script you need to perform following steps:**
 1. Download and install node.js LTS version - https://nodejs.org/en/ 
 2. **(Optional)** If you installed node JS for the first time on your machine, restart your PC 
-3. Download repository and extract it to newly created folder 
+3. Download repository zip file and extract it to desktop 
 4. Obtain X-auth token for your tinder account: Below you have instruction how to do that:\
   -3A. Open Google Chrome, open new empty tab and press "F12" - click on Network Tab\
   -3B. **(Optional)** If you haven not did it before log in to your tinder account using browser \
