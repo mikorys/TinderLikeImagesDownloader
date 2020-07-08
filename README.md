@@ -18,7 +18,7 @@ This script allows you to download photos of 10 last persons who has liked you\
   ![](images4Readme/ClickOnMetaLocale.png)
   -3D. Scroll down to Section called **Request headers**, if its not opened do it and scroll down until you find X-Auth-token, copy it and save somewhere. You will need it later.
   ![](images4Readme/Obtain%20X-Auth%20token.png)
-5. Open downloaded repository, and open **TinderLikesPhotoScript** by clicking right mous button on and selection option "Open with" then choose notepad or use notepad++ if you own one 
+5. Open downloaded repository, and open **TinderLikesPhotoScript** by clicking right mouse button on and selection option "Open with", choose notepad or use notepad++ if you own one 
 6. In code locate variable XAuth (line 8), **paste your saved token betwen brackets** and **save** edited file 
 ![](images4Readme/pasteXauthToken.png)
 7. Now on empty space in folder click following combination **Ctrl** + **Shift**  + **Right mouse button** and select **Open PowerShell/Comand line window here**- Powershell/CMD window should open, depends on your windwos version
