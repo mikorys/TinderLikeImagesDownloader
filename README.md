@@ -31,11 +31,11 @@
 
 **!!!!!! IMPORTANT !!!!!!**
 **X-AUTH-TOKEN Changes once a week so if script returns error make sure that your X-AuthKey is updated** \
-Each time when you execute the script it automatically deletes alread downloaded photos, so you don't neeed to manually remove them.
+Each time when you execute the script it automatically deletes already downloaded photos, so you don't neeed to manually remove them.
 
 **FAQ**
 1.Is it possible to download more than 10 photos? - Unfortunately no, script shows everyone who is blurred when you hit likes section- see screenshot below
 ![](images4Readme/BluredPhotos.png)
 2. Does it work on MAC, I'm not familliar with MAC OS so I have no idea.
 
-**PS: I am not JS expert rather beginner, but I've have chosen this language because it's easy to set up comparing to JAVA/C#**
+**PS: I am not JS expert rather beginner so don't complain about my code, I've have chosen this language because it's easy to set up comparing to JAVA/C# (I don't know python)**
