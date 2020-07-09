@@ -79,3 +79,4 @@ if __name__ == "__main__":
 #TODO Add parallel download
 #TODO Add readme
 #TODO download all images of user
+#TODO add tests
