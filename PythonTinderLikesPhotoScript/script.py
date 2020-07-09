@@ -78,3 +78,4 @@ if __name__ == "__main__":
 #TODO Add type checking
 #TODO Add parallel download
 #TODO Add readme
+#TODO download all images of user
