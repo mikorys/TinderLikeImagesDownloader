@@ -63,6 +63,7 @@ def getData():
     result = requests.get(TINDER_API_URL, headers=HEADERS)
     response = result.content.decode("utf-8")
 
+    #Verifying if you can connect to Tinder
     if response == 'Unauthorized':
         print("Unauthorized access to Tinder: \n\tPlease verify that you have the right X-Auth-Token")
         sys.exit()
