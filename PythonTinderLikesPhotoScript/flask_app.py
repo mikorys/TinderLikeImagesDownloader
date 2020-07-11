@@ -1,9 +1,12 @@
-from flask import Flask, render_template
+#Python Standard Library
 import os
 from os import listdir
 from os.path import isfile, join
-from pprint import pprint as print
 import sys
+
+#Python installed Packages
+from flask import Flask, render_template
+#### pip install flask
 
 image_folder = './downloadedImages'
 
