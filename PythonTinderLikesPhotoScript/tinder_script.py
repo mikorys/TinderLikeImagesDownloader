@@ -7,7 +7,7 @@ import os
 import requests # pip install requests
 
 #  !!!!!!! Paste here X-Auth token below, XauthToken Should be betwen quotes '' for instance 'pasted X-authToken' !!!!!!!!!!
-XAuth = 'PASTE X-AUTH TOKEN HERE' 
+XAuth = '' 
 # !! REMEMBER !!! personal X-AUTH TOKEN changes once a week if script does not work check if it is correct  
 
 # Constants
@@ -66,7 +66,6 @@ def getData():
     # List of users
     users = result.get('data').get('results')
 
-
     for user in users:
         #first image of user
         imageUrl= user.get('user').get('photos')[0].get('url')
@@ -78,5 +77,5 @@ if __name__ == "__main__":
 #TODO Add type checking
 #TODO Add parallel download
 #TODO Add readme
-#TODO download all images of user
 #TODO add tests
+#TODO add Flask app
