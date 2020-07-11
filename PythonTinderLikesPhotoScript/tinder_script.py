@@ -2,12 +2,13 @@
 import json
 import shutil
 import os
+import sys
 
 #Python installed Packages
 import requests # pip install requests
 
 #  !!!!!!! Paste here X-Auth token below, XauthToken Should be betwen quotes '' for instance 'pasted X-authToken' !!!!!!!!!!
-XAuth = '' 
+XAuth = 'PASTE X-AUTH TOKEN HERE' 
 # !! REMEMBER !!! personal X-AUTH TOKEN changes once a week if script does not work check if it is correct  
 
 # Constants
@@ -61,6 +62,11 @@ def getData():
     #Get content over Tinder
     result = requests.get(TINDER_API_URL, headers=HEADERS)
     response = result.content.decode("utf-8")
+
+    if response == 'Unauthorized':
+        print("Unauthorized access to Tinder: \n\tPlease verify that you have the right X-Auth-Token")
+        sys.exit()
+
     result = json.loads(response.replace("'",'"'))
 
     # List of users
@@ -74,8 +80,3 @@ def getData():
 if __name__ == "__main__":
     getData()
 
-#TODO Add type checking
-#TODO Add parallel download
-#TODO Add readme
-#TODO add tests
-#TODO add Flask app
