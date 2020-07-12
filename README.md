@@ -38,6 +38,6 @@ Each time when you execute the script it automatically deletes already downloade
 1.Is it possible to download more than 10 photos? - Unfortunately no, script shows everyone who is blurred when you hit likes section- see screenshot below
 ![](images4Readme/BluredPhotos.png)
 2. Does it work on MAC?
-  2.1 Yes, the script works on MAC. Personally, I couldn't find the X-AUTH-TOKEN using Google Chrome on MAC, I find it by using Firefox.
+2.1 Yes, the script works on MAC. Personally, I couldn't find the X-AUTH-TOKEN using Google Chrome on MAC, I find it by using Firefox.
 
 **PS: I am not JS expert rather beginner so don't complain about my code, I've have chosen this language because it's easy to set up comparing to JAVA/C# (I don't know python)**
