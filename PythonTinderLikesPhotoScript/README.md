@@ -5,6 +5,7 @@
 <p>
 Please see the original README to know how to get your Tinder X-AUTH TOKEN.
 </p>
+![](../images4Readme/flask_app.png)
 
 ```python 
 XAuth = 'PASTE X-AUTH TOKEN HERE' 
