@@ -3,8 +3,12 @@
 ## Downloads photos of 10 last persons who has liked you
 
 <p>
-Please see the original README to know how to get your Tinder X-AUTH TOKEN
+Please see the original README to know how to get your Tinder X-AUTH TOKEN.
 </p>
+
+```python 
+XAuth = 'PASTE X-AUTH TOKEN HERE' 
+```
 
 ### Installation & Usage
 
