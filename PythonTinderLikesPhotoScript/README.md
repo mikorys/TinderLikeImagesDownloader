@@ -30,5 +30,3 @@ poetry run python tinder_script.py
 poetry run python flask_app.py
 ```
 
-### On Mac
-I couldn't fint the
