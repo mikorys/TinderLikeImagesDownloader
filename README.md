@@ -22,6 +22,8 @@ EDIT: Works on MAC OS too
 5. Open downloaded repository, and open **TinderLikesPhotoScript** by clicking right mouse button on and selection option "Open with", choose notepad or use notepad++ if you own one 
 6. In code locate variable XAuth (line 8), **paste your saved token betwen brackets** and **save** edited file 
 ![](images4Readme/pasteXauthToken.png)
+6.1 On Mac
+![](images4Readme/firefox_on_mac.png)
 7. Now on empty space in folder click following combination **Ctrl** + **Shift**  + **Right mouse button** and select **Open with PowerShell/Comand line window here**- Powershell/CMD window should open, depends on your windwos version
 8. Click on empty field and type in following comand **node TinderLikesPhotoScript.js** and click **Return/Enter key** 
 ![](images4Readme/RunningScript.png)
