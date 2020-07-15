@@ -2,6 +2,7 @@
 import json
 import shutil
 import os
+import sys
 
 #Python installed Packages
 import requests # pip install requests
@@ -61,11 +62,16 @@ def getData():
     #Get content over Tinder
     result = requests.get(TINDER_API_URL, headers=HEADERS)
     response = result.content.decode("utf-8")
+
+    #Verifying if you can connect to Tinder
+    if response == 'Unauthorized':
+        print("Unauthorized access to Tinder: \n\tPlease verify that you have the right X-Auth-Token")
+        sys.exit()
+
     result = json.loads(response.replace("'",'"'))
 
     # List of users
     users = result.get('data').get('results')
-
 
     for user in users:
         #first image of user
@@ -75,8 +81,3 @@ def getData():
 if __name__ == "__main__":
     getData()
 
-#TODO Add type checking
-#TODO Add parallel download
-#TODO Add readme
-#TODO download all images of user
-#TODO add tests

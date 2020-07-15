@@ -22,6 +22,8 @@ EDIT: Works on MAC OS too
 5. Open downloaded repository, and open **TinderLikesPhotoScript** by clicking right mouse button on and selection option "Open with", choose notepad or use notepad++ if you own one 
 6. In code locate variable XAuth (line 8), **paste your saved token betwen brackets** and **save** edited file 
 ![](images4Readme/pasteXauthToken.png)
+6.1 Personally, I couldn't find the **X-AUTH-TOKEN** using Google Chrome on **MAC**, I find it by using Firefox.
+![](images4Readme/firefox_on_mac.png)
 7. Now on empty space in folder click following combination **Ctrl** + **Shift**  + **Right mouse button** and select **Open with PowerShell/Comand line window here**- Powershell/CMD window should open, depends on your windwos version
 8. Click on empty field and type in following comand **node TinderLikesPhotoScript.js** and click **Return/Enter key** 
 ![](images4Readme/RunningScript.png)
@@ -37,6 +39,7 @@ Each time when you execute the script it automatically deletes already downloade
 **FAQ**
 1.Is it possible to download more than 10 photos? - Unfortunately no, script shows everyone who is blurred when you hit likes section- see screenshot below
 ![](images4Readme/BluredPhotos.png)
-2. Does it work on MAC, I'm not familliar with MAC OS so I have no idea.
+2. Does it work on MAC?<br/>
+⋅⋅⋅2.1 Yes, the script works on MAC. 
 
 **PS: I am not JS expert rather beginner so don't complain about my code, I've have chosen this language because it's easy to set up comparing to JAVA/C# (I don't know python)**
