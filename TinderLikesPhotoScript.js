@@ -46,7 +46,7 @@ async function download(url, photoNo) {//main function download 10 last like ima
 
     return new Promise((resolve, reject) => {
         response.data.on('end', () => {
-            console.log(`Tinder Photo No ${photoNo} dwonloaded successfully`)
+            console.log(`Tinder Photo No ${photoNo} downloaded successfully`)
             resolve()
         })
         response.data.on('error', err => {
