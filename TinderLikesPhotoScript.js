@@ -5,7 +5,7 @@ const Path = require('path')
 const FsExtra = require('fs-extra')
 
 // !!!!!!!!!! Paste here X-Auth token below, XauthToken Should be betwen quotes '' for instance 'pasted X-authToken' !!!!!!!!!!
-let XAuth = 'PASTE X-AUTH TOKEN HERE'
+let XAuth = e1f0cc69-3637-4930-b499-fb2d80a49d12
 // !! REMEMBER !!! personal X-AUTH TOKEN changes once a week if script does not work check if it is correct
 
 const directory = `${__dirname}/downloadedImages`
