@@ -7,7 +7,7 @@ authors = ["Guinsly Mondesir"]
 [tool.poetry.dependencies]
 python = "^3.7"
 requests = "^2.24.0"
-flask = "^1.1.2"
+flask = "^2.2.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
